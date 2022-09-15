@@ -1,0 +1,31 @@
+{
+  // https://v3.nuxtjs.org/concepts/typescript
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "target": "ESNext",
+    "types": ["@pinia/nuxt", "@nuxt/content"],
+    // TODO: imported options below - confirm if these are correct
+    // "module": "ESNext",
+    // "moduleResolution": "Node",
+    "lib": ["ESNext", "ESNext.AsyncIterable", "DOM"],
+    // "esModuleInterop": true,
+    // "allowJs": true,
+    // "jsx": "preserve", // Enable TypeScript intellisense on templates where it is originally disabled
+    // "noEmitOnError": true,
+    // "sourceMap": true,
+    // "strict": true,
+    // "noEmit": true,
+    // "experimentalDecorators": true,
+    // "noImplicitAny": true,
+    // "forceConsistentCasingInFileNames": true,
+    // "noImplicitReturns": true,
+    // "noUnusedLocals": true,
+    // "baseUrl": ".",
+    // "skipLibCheck": true, // to circumvent "type 'Plugin' is not generic." errors in node_modules/@nuxt/types/config/build.d.ts:133:36
+    // "paths": {
+    //   "~/*": ["./*"],
+    //   "@/*": ["./*"]
+    // },
+    "allowSyntheticDefaultImports": true
+  }
+}

@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Aeonik Pro';
+  src: url(~/assets/fonts/aeonik-pro/Aeonik-Pro-Thin.ttf);
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Aeonik Pro';
+  src: url(~/assets/fonts/aeonik-pro/Aeonik-Pro-Thin-Italic.ttf);
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Aeonik Pro';
+  src: url(~/assets/fonts/aeonik-pro/Aeonik-Pro-Light.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Aeonik Pro';
+  src: url(~/assets/fonts/aeonik-pro/AeonikPro-Regular.otf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Aeonik Pro';
+  src: url(~/assets/fonts/aeonik-pro/Aeonik-Pro-Regular-Italic.ttf);
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Aeonik Pro';
+  src: url(~/assets/fonts/aeonik-pro/Aeonik-Pro-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Aeonik Pro';
+  src: url(~/assets/fonts/aeonik-pro/Aeonik-Pro-Black-Italic.ttf);
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Agrandir Variable';
+  src: url(~/assets/fonts/agrandir/Agrandir-Variable.ttf);
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+
+@layer base {
+  html {
+    font-family: 'Agrandir Variable', sans-serif;
+  }
+}

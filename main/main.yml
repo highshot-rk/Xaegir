@@ -1,0 +1,21 @@
+image:
+  repository: xaegir-app
+  tag: latest
+  pullPolicy: IfNotPresent
+service:
+  ports:
+    - name: http
+      internalPort: 8080
+      externalPort: 3000
+# TODO: Create server endpoints for below --
+# readiness:
+#   initialDelaySeconds: 20
+#   timeoutSeconds: 5
+#   httpGet:
+#     path: /readiness
+#     port: 3000
+# liveness:
+#   initialDelaySeconds: 20
+#   httpGet:
+#     path: /health
+#     port: 3000

@@ -1,0 +1,20 @@
+image:
+  repository: xaegir-strapi
+  tag: latest
+  pullPolicy: IfNotPresent
+service:
+  ports:
+    - name: http
+      internalPort: 1337
+      externalPort: 1337
+# readiness:
+#   initialDelaySeconds: 20
+#   timeoutSeconds: 5
+#   httpGet:
+#     path: /readiness
+#     port: 3000
+# liveness:
+#   initialDelaySeconds: 20
+#   httpGet:
+#     path: /health
+#     port: 3000
